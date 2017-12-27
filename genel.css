@@ -1,0 +1,81 @@
+body {
+	margin:0;
+	background-color:#3366cc;
+	
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	background-image:url(img/ust_golge.jpg);
+	background-repeat:repeat-x;
+}
+
+.sayfa {
+	width:880px;
+	margin:0 auto;
+	background-image:url(img/sayfa.jpg);
+	padding-top:30px;
+}
+
+.ust {
+	font-size:0;
+}
+
+.menu {
+	background-color:#C00;
+	padding:0 40px;
+	text-align:center;
+}
+
+.menu a {
+	color:#FFF;
+	text-decoration:none;
+	display:inline-block;
+	padding:0 35px;
+	line-height:40px;
+}
+
+.menu a:hover, .menu a.acik {
+	color:#C00;
+	background-color:#fff;
+}
+
+.icerik .sol {
+	float: left;
+	margin-left:75px;
+}
+
+.icerik .sag {
+	margin-left:330px;
+	margin-right:75px;
+	text-indent:30px;
+	text-align:justify;
+}
+
+.icerik {
+	overflow:hidden;
+}
+
+.icerik h1 {
+	font-size:24px;
+	font-weight:bold;
+	color:#c00;
+}
+
+.icerik .altsayfa { padding: 0 80px; line-height:25px; text-align:justify; }
+.icerik .resim_sag { float:right; margin-left:25px; margin-bottom:25px; }
+.icerik .resim_sol { float:left; margin-right:25px; margin-bottom:25px; }
+
+.resimler {
+	padding:40px;
+}
+
+.resimler .kutu {
+	float:left;
+	margin-left:35px;
+}
+
+.alt {
+	background-color:#ffba03;
+	padding:0 75px;
+	line-height:40px;
+}
